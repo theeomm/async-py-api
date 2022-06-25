@@ -1,0 +1,13 @@
+{
+	"editor.formatOnSave": true,
+	"python.autoComplete.extraPaths": ["__pypackages__/3.10/lib"],
+	"python.analysis.extraPaths": ["__pypackages__/3.10/lib"],
+	"python.formatting.provider": "black",
+	"python.sortImports.args": ["--profile", "black"],
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+			"source.fixAll": true
+		}
+	}
+}
