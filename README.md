@@ -9,7 +9,7 @@ In addition, this project also serves as my introduction to [PDM](https://pdm.fm
 
 ## Tools
 
-- API with [FastAPI](https://fastapi.tiangolo.com) and [SQLModel](https://sqlmodel.taingolo.com)
+- API with [FastAPI](https://fastapi.tiangolo.com) and [SQLModel](https://sqlmodel.tiangolo.com)
 - Database migrations with [alembic](https://alembic.sqlalchemy.org/)
 - Code formatting with [black](https://black.readthedocs.io/)
 - Import sorting with [isort](https://isort.readthedocs.io/)
@@ -20,3 +20,9 @@ In addition, this project also serves as my introduction to [PDM](https://pdm.fm
 - Be able to confidently build a functional REST and/or GraphQL API with [FastAPI](https://fastapi.tiangolo.com), [SQLModel](https://sqlmodel.tiangolo.com) and [Alembic](https://alembic.sqlalchemy.org/)
 - Build a TDD FastAPI project with pytest
 - Build a scalabale API with FastAPI
+
+## Resources
+
+I have the utilized the following resources to learn everything done thi project.
+
+- [SQLModel](https://sqlmodel.tiangolo.com) documentation with major focus on the `FastAPI and Pydantic` section.
