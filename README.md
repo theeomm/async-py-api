@@ -23,6 +23,4 @@ In addition, this project also serves as my introduction to [PDM](https://pdm.fm
 
 ## Resources
 
-I have the utilized the following resources to learn everything done thi project.
-
-- [SQLModel](https://sqlmodel.tiangolo.com) documentation with major focus on the `FastAPI and Pydantic` section.
+I have utilized each of the packages' documentation.

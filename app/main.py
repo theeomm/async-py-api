@@ -3,7 +3,7 @@ from fastapi import Depends, FastAPI
 
 from app.conf.db import create_db
 from app.conf.settings import Settings
-from app.model.todo import *
+from app.models.todo import *
 from app.routes import todos
 from app.utils import get_settings
 

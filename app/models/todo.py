@@ -5,6 +5,7 @@ from sqlmodel import Field, SQLModel
 
 class TodoModel(SQLModel):
     note: str
+    created_at: str
 
 
 class Todo(TodoModel, table=True):

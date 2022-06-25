@@ -3,8 +3,7 @@ from fastapi.exceptions import HTTPException
 from fastapi.routing import APIRouter
 from sqlmodel import Session, select
 
-from app.conf.db import engine
-from app.model.todo import Todo, TodoCreate, TodoUpdate
+from app.models.todo import Todo, TodoCreate, TodoUpdate
 from app.utils import get_session
 
 router = APIRouter(prefix="/todos")

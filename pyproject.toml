@@ -26,13 +26,14 @@ dev = [
 ]
 
 [tool.pdm.scripts]
-start = {call = "app.main:app"}
+start = "uvicorn app.main:app --host 0.0.0.0"
 dev = "uvicorn app.main:app --reload"
 test = "pytest"
+generate = "alembic revision --autogenerate -m"
+migrate = "alembic upgrade head"
 
 [tool.pytest.ini_options]
 norecursedirs = "__pypackages__"
-
 
 [tool.isort]
 profile = "black"
